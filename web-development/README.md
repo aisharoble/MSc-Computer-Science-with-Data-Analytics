@@ -1,9 +1,9 @@
 # Web Development
 
-HTML, CSS and JavaScript coursework.
+Web development coursework from my MSc Computer Science with Data Analytics.
 
-**Status:** Assignment files have not been added yet.
+## Projects
 
-For each project, include the site files, screenshots and instructions for viewing it locally. Credit any third-party libraries or assets.
-
-Use the [project summary template](../templates/project-summary.md).
+| Project | Contents | Status |
+| --- | --- | --- |
+| [FitFlex Gym Website](fitflex-gym/) | Six HTML pages with navigation, membership table and registration form | Supporting CSS, JavaScript, logo and vendor files pending |
