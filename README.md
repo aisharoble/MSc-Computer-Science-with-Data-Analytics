@@ -8,7 +8,7 @@ This repository brings together assignments and projects from my MSc Computer Sc
 
 | Area | Contents | Status |
 | --- | --- | --- |
-| [Python programming](python-programming/) | Python exercises, algorithms and Jupyter notebooks | [OOP and data structures assignment](python-programming/object-oriented-programming/) |
+| [Python programming](python-programming/) | Python exercises, algorithms and Jupyter notebooks | Two assignments added |
 | [Databases and SQL](databases-and-sql/) | Database designs, entity relationship diagrams and SQL queries | Awaiting assignment uploads |
 | [Data analytics](data-analytics/) | Data preparation, analysis, charts and reports | Awaiting assignment uploads |
 | [Web development](web-development/) | HTML, CSS and JavaScript projects | Awaiting assignment uploads |
@@ -17,7 +17,7 @@ This repository brings together assignments and projects from my MSc Computer Sc
 
 Each project will include a short summary of the task, the tools used, my approach and the results. Where relevant, I will also include instructions for running the code and reflections on what I learned.
 
-The first project is the [Object-Oriented Programming and Data Structures assignment](python-programming/object-oriented-programming/), containing five Python notebooks. Further assignments will be added as they are uploaded.
+The first project is the [Object-Oriented Programming and Data Structures assignment](python-programming/object-oriented-programming/), containing five Python notebooks. The second project is [Programming and Algorithms](python-programming/programming-and-algorithms/), covering functions, collections, text processing and file handling. Further assignments will be added as they are uploaded.
 
 ## Adding an assignment
 
