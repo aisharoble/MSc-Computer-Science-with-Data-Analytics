@@ -2,10 +2,10 @@
 
 Python exercises, algorithms and Jupyter notebooks from my MSc Computer Science with Data Analytics.
 
-**Status:** Assignment files have not been added yet.
+## Projects
 
-## Project files
+| Project | Topics | Files |
+| --- | --- | --- |
+| [Object-Oriented Programming and Data Structures](object-oriented-programming/) | Classes, inheritance, operator overloading, heaps, binary trees and graphs | Five Jupyter notebooks and a project summary |
 
-Each assignment will have its own folder containing the notebook or scripts, any sample inputs and instructions for running the code.
-
-Use the [project summary template](../templates/project-summary.md) to explain the task, approach and results.
+Each project includes instructions and notes about its approach, results and limitations.
