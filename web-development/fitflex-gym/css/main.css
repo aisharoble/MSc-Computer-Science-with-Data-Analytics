@@ -1,0 +1,67 @@
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:system-ui,Arial,sans-serif;line-height:1.5;color:#111}
+img{max-width:100%;height:auto}
+.container{max-width:1024px;width:95%;margin:0 auto}
+
+/* Skip link */
+.skip-link{position:absolute;left:-999px;top:-999px}
+.skip-link:focus{left:1rem;top:1rem;background:#fff;padding:.5rem 1rem;border:2px solid #000;z-index:1000}
+
+/* Header & logo */
+header{display:flex;align-items:center;gap:1rem;padding:1rem 0;border-bottom:2px solid #e5e5e5}
+.logo{display:flex;align-items:center;gap:.5rem;text-decoration:none;color:#111}
+.logo span{font-weight:700;font-size:1.25rem}
+
+/* Logo styling */
+header .logo img {
+  height: 60px;       /* sets the height */
+  width: auto;        /* keeps correct proportions */
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px; /* space between logo and text */
+}
+
+header .logo span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+
+/* Nav (desktop) */
+#mainNav ul{list-style:none;margin:0;padding:0;display:flex;gap:1rem}
+#mainNav > ul > li{position:relative}
+#mainNav a{display:block;text-decoration:none;padding:.5rem .25rem}
+#mainNav li ul{display:none;position:absolute;left:0;top:100%;background:#fff;border:1px solid #ddd;min-width:180px;padding:.25rem 0}
+#mainNav li ul li a{white-space:nowrap;padding:.5rem .75rem}
+#mainNav li:hover>ul,#mainNav li:focus-within>ul{display:block}
+
+/* Main */
+main{margin-top:1rem}
+.hero{padding:1.25rem 0}
+.hero .cta .btn{margin-right:.5rem}
+
+/* Aside + link states */
+.resources{margin-top:1rem}
+.resources ul{padding-left:1.25rem}
+.resources a{color:blue;text-decoration:none}
+.resources a:visited{color:grey}
+.resources a:hover,.resources a:focus{color:red}
+:focus{outline:2px solid #000;outline-offset:2px}
+
+/* Buttons */
+.btn{display:inline-block;padding:.6rem 1rem;border:1px solid #333;border-radius:.5rem;text-decoration:none}
+.btn-primary{background:#111;color:#fff;border-color:#111}
+
+/* Table */
+table{width:100%;border-collapse:collapse;margin:1rem 0}
+caption{font-weight:700;margin-bottom:.5rem}
+th,td{border:1px solid #ddd;padding:.6rem;text-align:left}
+tbody tr:nth-child(even){background:#f7f7f7}
+
+/* Footer */
+footer{margin-top:2rem;background:#222;color:#fff;padding:1rem;text-align:center}
+
+/* Media queries (rubric) */
+@media (max-width:800px){ html{font-size:80%} }
+@media (max-width:650px){ #mainNav{display:none} } /* SlickNav appears */

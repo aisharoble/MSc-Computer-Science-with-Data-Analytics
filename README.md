@@ -11,7 +11,7 @@ This repository brings together assignments and projects from my MSc Computer Sc
 | [Python programming](python-programming/) | Python exercises, algorithms and Jupyter notebooks | Two assignments added |
 | [Databases and SQL](databases-and-sql/) | Database designs, entity relationship diagrams and SQL queries | Awaiting assignment uploads |
 | [Data analytics](data-analytics/) | Data preparation, analysis, charts and reports | Awaiting assignment uploads |
-| [Web development](web-development/) | [FitFlex Gym website](web-development/fitflex-gym/) | HTML uploaded; supporting assets pending |
+| [Web development](web-development/) | [FitFlex Gym website](web-development/fitflex-gym/) | Source and supporting assets included |
 
 ## About this work
 

@@ -2,7 +2,7 @@
 
 A six-page gym website assignment from my MSc Computer Science with Data Analytics. The HTML provides pages for exploring membership plans, events, the gym team, contact details and a registration form.
 
-**Status: HTML source uploaded; supporting assets are still needed.** The current repository copy is incomplete and is not a verified working demo.
+**Status: All six HTML pages and their referenced supporting assets are included.** Browser behaviour and visual layout still require verification.
 
 ## Pages
 
@@ -24,9 +24,9 @@ A six-page gym website assignment from my MSc Computer Science with Data Analyti
 - A live status region intended for registration feedback.
 - Links to health and fitness resources with `rel="noopener"` for new tabs.
 
-## Missing supporting files
+## Supporting files
 
-All six pages reference the following files, which were not included in the upload:
+The original supporting files have been restored to the paths referenced by the HTML:
 
 - `css/main.css`
 - `js/main.js`
@@ -35,11 +35,11 @@ All six pages reference the following files, which were not included in the uplo
 - `vendor/slicknav/slicknav.min.css`
 - `vendor/slicknav/jquery.slicknav.min.js`
 
-The supplied documentation describes responsive CSS, a mobile SlickNav menu, an automatically updated footer year and JavaScript form feedback. Those behaviours cannot be verified until the assets are added. The contact HTML currently contains example contact details but no map link, despite the documentation mentioning one.
+The supplied documentation describes responsive CSS, a mobile SlickNav menu, an automatically updated footer year and JavaScript form feedback. The corresponding CSS and JavaScript are now present; browser-level behaviour has not yet been verified. The contact HTML currently contains example contact details but no map link, despite the documentation mentioning one.
 
 ## Viewing locally
 
-After downloading the project, open `index.html` in a browser to inspect the HTML. It will lack the intended styles, logo and scripted behaviours until the supporting folders are restored.
+After downloading the project, open `index.html` in a browser to inspect the HTML. The project includes the styles, logo, jQuery, SlickNav and site script.
 
 Alternatively, run this from the project folder:
 
@@ -51,6 +51,6 @@ Then open `http://localhost:8000`. The registration form uses `action="#"`; no r
 
 ## Review and next steps
 
-The six HTML files were reviewed and added without changes. Their local page navigation targets are present. Runtime behaviour, visual layout and responsive styling have not been tested in this incomplete copy.
+The six HTML files were reviewed and added without changes. Their local page navigation targets are present. All referenced local assets are now included. Runtime behaviour, visual layout and responsive styling have not been tested in a browser.
 
-Next steps are to restore the original asset folders, check mobile navigation and form feedback, and reconcile the documentation with the source. The supplied PDF was reviewed as project context; it has not been added to this folder.
+Next steps are to check mobile navigation and form feedback and reconcile the documentation with the source. The supplied PDF was reviewed as project context; it has not been added to this folder.
