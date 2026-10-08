@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FitFlex Gym</title>
+  <meta name="description" content="FitFlex Gym: memberships, trainers, events and registration." />
+  <meta name="keywords" content="FitFlex,gym,fitness,London,membership,trainers" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="vendor/slicknav/slicknav.min.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="container">
+    <header>
+      <a href="index.html" class="logo">
+        <img src="img/logo.png" alt="FitFlex Gym logo" />
+        <span>FitFlex Gym</span>
+      </a>
+      <nav id="mainNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="membership.html">Membership</a>
+            <ul>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="register.html">Register</a></li>
+            </ul>
+          </li>
+          <li><a href="about_us.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <h1>Register</h1>
+<div id="formMsg" role="status" aria-live="polite"></div>
+<form id="registerForm" action="#" method="post">
+  <label>Full name
+    <input type="text" name="fullname" required placeholder="e.g. Aisha Noor" title="Enter your full name" />
+  </label>
+  <label>Address
+    <input type="text" name="address" required placeholder="House number and street" title="Enter your address" />
+  </label>
+  <label>Telephone
+    <input type="tel" name="telephone" required pattern="^[0-9+\s()-]{7,15}$"
+           placeholder="+44 7123 456789" title="7–15 digits; spaces and + allowed" />
+  </label>
+  <label>Email (optional)
+    <input type="email" name="email" placeholder="name@example.com" title="Optional email address" />
+  </label>
+
+  <fieldset>
+    <legend>Membership</legend>
+    <label>Plan
+      <select name="tier" required>
+        <option value="">Choose a plan…</option>
+        <option>Basic</option><option>Plus</option><option>Premium</option>
+      </select>
+    </label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Interests</legend>
+    <label><input type="checkbox" name="int" value="Strength" /> Strength</label>
+    <label><input type="checkbox" name="int" value="Cardio" /> Cardio</label>
+    <label><input type="checkbox" name="int" value="Yoga" /> Yoga</label>
+  </fieldset>
+
+  <label>Comments (optional)
+    <textarea name="comments" rows="4" placeholder="Anything we should know?"></textarea>
+  </label>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+    </main>
+
+    <aside class="resources">
+      <h2>Resources</h2>
+      <ul>
+        <li><a href="https://www.nhs.uk/live-well/exercise/" target="_blank" rel="noopener">NHS: Exercise</a></li>
+        <li><a href="https://www.britishnutritionfoundation.org.uk/" target="_blank" rel="noopener">British Nutrition Foundation</a></li>
+        <li><a href="https://www.womenshealthmag.com/uk/fitness/" target="_blank" rel="noopener">Fitness articles</a></li>
+      </ul>
+    </aside>
+
+    <footer>&copy; <span id="year"></span> FitFlex Gym</footer>
+  </div>
+
+  <script src="vendor/jquery-3.7.1.min.js"></script>
+  <script src="vendor/slicknav/jquery.slicknav.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
